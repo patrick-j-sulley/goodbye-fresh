@@ -2,12 +2,10 @@ import request from 'superagent'
 
 const baseURL = '/api/v1/restaurant'
 
-export function getRestaurant () {
+export function getRestaurant (location) {
     return request
     .get(`${baseURL}/restaurant`)
-    .then(response => {
-        console.log(response.body)
-    })
+    .then(response => response.body)
 }
 
 // export const getResturant = () => {

@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from 'react'
+import { getRestaurant } from '../apis/restaurant'
 
 
 
 const Home = () => {
-  // const [location, setLocation] = useState('')
+  const [location, setLocation] = useState('')
 
   const handleSubmit = (evt) => {
     evt.preventDefault()
-    setLocation(evt.target)
+    getRestaurant(location)
     //redirect to restaurant route?
+    props.history.push('/restaurant')
       //.then() Render restaunt.jsx having been passed location
+      
   }
 
   const handleChange = (evt) => {
