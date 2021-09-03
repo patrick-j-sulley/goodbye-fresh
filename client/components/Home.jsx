@@ -32,10 +32,10 @@ const Home = () => {
             <div className="widget-blurb">
               <h2>Give us the city you want to order in and we'll do the hard part</h2>
             </div>
-            <form onSubmit={handleSubmit} >
-              <input type="text" id="city-input" name="city-input" onChange={handleChange} /><br></br>
-              <input type="submit" value="Get me food" />
-            </form>
+              <form onSubmit={handleSubmit} >
+                <input type="text" id="city-input" name="city-input" onChange={handleChange} /><br></br>
+                <input type="submit" value="Get me food" />
+              </form>
             <div className="author">
               <a href="https://github.com/roa-2021/Ravenclaw">Made by Ravenclaw @ Github</a>
             </div>
