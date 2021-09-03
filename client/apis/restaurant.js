@@ -4,7 +4,7 @@ const baseURL = '/api/v1/restaurant'
 
 export function getRestaurant () {
     return request
-    .get(`${baseURL}`)
+    .get(`${baseURL}/restaurant`)
     .then(response => {
         console.log(response.body)
     })

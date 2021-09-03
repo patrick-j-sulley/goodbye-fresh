@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
-// import { getRestaurant } from '../apis/fruit'
+// import { getRestaurant } from '../apis/restaurant'
 
 const Restaurant = () => {
  //const [restaurant, setRestaurant] = useState('')
@@ -28,7 +28,7 @@ const Restaurant = () => {
             </div>
             <div className="buttons">
               <div className="home-b">
-                <Link to='/'><button>Home</button></Link>
+                {/* <Link to='/'><button>Home</button></Link> */}
               </div>
               <div className="reroll-b">
                 <button>Reroll</button>
