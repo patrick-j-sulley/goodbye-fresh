@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { getRestaurant } from '../apis/restaurant'
+import {Link} from 'react-router-dom'
 
 
 
@@ -37,7 +38,7 @@ const Home = () => {
             </div>
               <form onSubmit={handleSubmit} >
                 <input type="text" id="city-input" name="city-input" onChange={handleChange} /><br></br>
-                <input type="submit" value="Get me food" />
+                <Link to='/restaurant'><input type="submit" value="Get me food" /></Link>
               </form>
             <div className="author">
               <a href="https://github.com/roa-2021/Ravenclaw">Made by Ravenclaw @ Github</a>
