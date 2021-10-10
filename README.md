@@ -1,22 +1,8 @@
-# A starter webpack project for React with databases
+# About Goodbye Fresh
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
+Created by Team Ravenclaw [Patrick Sullivan](https://github.com/patrick-j-sulley), [Zoe Joblin](https://github.com/zoe-joblin), [Jo Tregidga](https://github.com/jo-tree), [Tim Soikie](https://github.com/tim-soikie), and [Matthew Hocking](https://github.com/Matthew-Hocking) for the one of many 1 day group projects within the web development bootcamp at Enspiral Dev Academy.
 
-* Use as template or fork this repo
-* Rename your repo according to the app you're building
+Goodbye Fresh is a randomizer web app that allows the user to input their location, to which they are then able to generate a random open takeaway resturant within a 5km distance. The app uses the [Nearby Search API within the Google Maps Places API package](https://developers.google.com/maps/documentation/places/web-service/search-nearby?hl=en_US) for all GET & POST routes.
 
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && npm i
-```
+Goodbye Fresh was developed with a stack of HTML/CSS, JavaScript, ReactJS, Node.JS, and Express.
 
-To initialise your database
-```
-npm run knex migrate:latest
-npm run knex seed:run
-```
-
-To start the development server with a watcher that rebuilds your code
-```sh
-npm run dev
-``` 
